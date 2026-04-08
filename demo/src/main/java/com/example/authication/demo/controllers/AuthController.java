@@ -205,7 +205,6 @@ public ResponseEntity<AuthResponse> login(@RequestBody User loginRequest, HttpSe
         }
     }
 
-
     @PostMapping("/logout")
     public ResponseEntity<String> logout(
             HttpServletResponse response,
